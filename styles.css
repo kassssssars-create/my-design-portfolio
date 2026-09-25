@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 80px 24px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    font-size: clamp(36px, 6vw, 72px);
+    line-height: 1.1;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto 48px;
+    color: #d0d0d0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    width: min(100%, 900px);
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+}
